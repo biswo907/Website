@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con{
+
+
+            text-align: center;
+
+            display:              flex;
+
+            flex-direction: column;
+
+            box-sizing: border-box;
+
+            overflow: scroll;
+            overflow-x: hidden;
+            /* border: 4px solid black; */
+            padding: 20px;
+         }
+
+
+         #fst{
+
+             background-color: red;
+             border: 2px 3px dashed black;
+             width: 300px;
+             height: 300px;
+             border-radius: 360px;
+             margin: 10px;
+             border:5px  solid black;
+             box-shadow: 10px 10px 20px  black;
+             outline: 5px solid red;
+             outline-offset: 1px;
+             outline-style: dotted;
+         }
+         
+         .main{
+             display: flex;
+             /* overflow-x: hidden; */
+         }
+         #sec{
+             border:5px  solid black;
+            
+             background-color:violet;
+             width: 300px;
+             height: 300px;
+             border-radius: 360px;
+             margin: 10px;
+             box-shadow: 10px 10px 20px  black;
+             outline: 5px solid violet;
+             outline-offset: 1px;
+             outline-style: dotted;
+             }
+         #thd{
+             border: 2px 3px dashed black;
+             width: 300px;
+             height: 300px;
+             background-color:greenyellow;
+             border-radius: 360px;
+             margin: 10px;
+             border:5px  solid black;
+             box-shadow: 10px 10px 20px  black;
+             outline: 5px solid greenyellow;
+             outline-offset: 1px;
+             outline-style: dotted;
+            }
+            span{
+              font-size: 50px;
+              text-shadow: 2px 2px 2px  black;
+              width: 300px;
+              text-align: center;
+              /* background-color: black; */
+              display: block;
+              /* margin: auto; */
+             }
+            span.sp{
+            position: relative;
+            top: 110px;
+             }
+             span.symbol{
+                 position: relative;
+                 top: 120px;
+                 padding: 15px;
+                 font-size: 70px;
+                 text-shadow: 2px 2px 2px black;
+                    }
+        
+
+
+
+
+            
+
+
+           
+            
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="con">
+        <div class="main">
+        <div id="fst">
+<span class="sp">HTML</span>
+        </div>
+<span class="symbol">+</span>
+        <div id="sec">
+         
+<span class="sp">CSS</span>
+        </div>
+        <span class="symbol">=</span>
+        <div id="thd">
+<span class="sp">LOVE</span>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
